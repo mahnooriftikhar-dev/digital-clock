@@ -1,0 +1,72 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(135deg,#ffd6e8,#ffc0cb,#ff9ecf);
+
+    overflow:hidden;
+}
+
+/* Heading */
+h1{
+    color:white;
+    font-size:45px;
+    margin-bottom:40px;
+
+    text-shadow:
+        0 0 10px hotpink,
+        0 0 20px white;
+}
+
+/* Clock Box */
+#clock{
+    font-size:70px;
+    font-weight:bold;
+
+    color:#ff1493;
+
+    padding:30px 60px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,0.25);
+
+    backdrop-filter:blur(15px);
+
+    border:2px solid rgba(255,255,255,0.5);
+
+    box-shadow:
+        0 0 20px rgba(255,20,147,0.4),
+        0 0 40px rgba(255,182,193,0.3);
+
+    text-shadow:
+        0 0 10px white,
+        0 0 20px hotpink;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+#clock:hover{
+    transform:scale(1.05);
+
+    box-shadow:
+        0 0 30px deeppink,
+        0 0 60px hotpink;
+}

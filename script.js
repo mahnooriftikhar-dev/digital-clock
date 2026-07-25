@@ -75,15 +75,6 @@ function updateClock() {
     // "08"
 
     hours = hours.padStart(2, "0");
-
-
-
-    // -------------------------------
-    // MINUTES
-    // -------------------------------
-
-    // Gets current minutes
-
     let minutes = now.getMinutes();
 
     // Convert into string
